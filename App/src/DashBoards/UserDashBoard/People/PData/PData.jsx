@@ -100,7 +100,10 @@ const PData = () => {
 
   const handlerSave = async (profile) => {
     const docref = doc(dataBase, "user", User.user.displayName);
-    console.log(docref);
+    console.log(docref
+
+      
+    );
 
     await updateDoc(docref, {
       savedPosts: arrayUnion(profile)
