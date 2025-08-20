@@ -35,7 +35,7 @@ const Navbar = ({ role }) => {
               <span className="brand-name">Admin</span><span className="dot-com">pannel</span>
             </> : (
             <>
-              <span className="brand-name">Shaddi</span><span className="dot-com">.com</span>
+              <span className="brand-name">Svayamvaram</span><span className="dot-com">.com</span>
             </>
           )}
         </h2>
